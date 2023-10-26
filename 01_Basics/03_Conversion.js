@@ -65,3 +65,38 @@ console.log(typeof someNUmber);  // NUmber
 let myString = String(someNUmber)
 console.log(myString);    // o/p -> "33"
 console.log(typeof myString);  // string
+
+
+
+//*****************************Operations **********************************
+let no = 10
+let negNo = -10
+console.log(negNo);    
+console.log(typeof negNo); 
+
+console.log(2+2);    
+console.log(2*2);    
+console.log(2-2);    
+console.log(2/2);    
+console.log(2%2);    
+console.log(2**3);    // 2^3  
+
+
+
+let str1 = "Gaurav"
+let str2 = " Pekhale"
+
+console.log(str1+str2)
+
+
+console.log(true) // true
+console.log(+true)   // 1
+console.log(-true)   //-1
+
+
+let num1,num2,num3 ;
+
+num1 = num2 = num3 =10  // Not A good Practice 
+
+
+
