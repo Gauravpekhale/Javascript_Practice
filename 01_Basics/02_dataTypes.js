@@ -24,3 +24,40 @@
 
  // object -> Instance of class
 
+
+
+
+ /*
+ Type Of Data Types 
+ -> Primitive  -> 7 categories 
+ -> Non - Primitive 
+ 
+ 
+ * Primitive ( Always Call By Value)
+ string  , number , boolean ,  null  , undefined , symbol , BigInt */
+const id = Symbol("123")
+const NewId = Symbol("123")
+// id and NewId is not Equal ...
+
+
+/* Non Premitive ( Call by refrence)
+Array , Objects , Functions 
+ */
+
+let heros = ["aa","ac","xy"]
+console.log("Array ")
+console.log(heros)
+
+let myObj={ 
+    namer :"gaurav",
+    age :22
+}
+console.log("Objects ")
+console.log(myObj)
+
+
+let myfun = function(){
+    console.log("Jay Ganesha ");
+}
+
+myfun();
